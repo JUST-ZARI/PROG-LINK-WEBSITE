@@ -53,7 +53,17 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="community.html" class="dropdown-item active">Community</a>
+                            <a href="learn.html" class="dropdown-item">Learn</a>
+                            <a href="category.html" class="dropdown-item">Categories</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                           
+                        </div>
+                    </div>
+                    
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -61,18 +71,10 @@
                             <a href="organisations.html" class="dropdown-item">Organisation Profiles</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="category.html" class="dropdown-item">Courses</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="community.html" class="dropdown-item active">Community</a>
-                            <a href="learn.html" class="dropdown-item">Learn</a>
-                        </div>
-                    </div>
+                    <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Post A Job<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Link Up<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
         <!-- Navbar End -->
@@ -81,34 +83,61 @@
         <!-- Header End -->
         <div class="container-xxl py-5 bg-dark page-header mb-5">
             <div class="container my-5 pt-5 pb-4">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">YET TO BE BUILT</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Our Community</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb text-uppercase">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Services</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">YET TO BE BUILT </li>
+                        
                     </ol>
                 </nav>
             </div>
         </div>
         <!-- Header End -->
+        <main>
+            <section class="forum-header">
+                <h1>Forum</h1>
+                <p>Welcome to our community forum! Ask questions, share knowledge, and connect with other programmers.</p>
+            </section>
+            <section class="forum-categories">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">AI and Machine Learning</a></li>
+                    <li><a href="#">Mobile App Development</a></li>
+                    <li><a href="#">General Discussion</a></li>
+                </ul>
+            </section>
+            <section class="forum-threads">
+                <h2>Recent Events</h2>
+                <ul>
+                    <li>
+                        <h3><a href="#">Implementing a Convolutional Neural Network in Python?</a></h3>
+                        <p>Hosted by <a href="#">Emmanuel John</a> 24 hours ago</p>
+                    </li>
+                    <li>
+                        <h3><a href="#">Securing Mobile Apps: Best Practices and Strategies</a></h3>
+                        <p>Hosted by <a href="#">Jimmy Ali</a> 24 hours ago</p>
+                    </li>
+                    <li>
+                        <h3><a href="#">Comparison of React and Angular for Web Development</a></h3>
+                        <p>Hosted by <a href="#">Bob Johnson</a> 3 days ago</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="forum-create-thread">
+                <h2>Register for Tech Event</h2>
+                <form>
+                    <input type="text" placeholder="Event Name"> 
+                    <textarea placeholder="Enter Host Name"></textarea>
+                     <button type="submit">Register</button>
+                    
+                </form>
+            </section>
+        </main>
 
 
-        <!-- 404 Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container text-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
-                        <h1 class="display-1">Community</h1>
-                        <h1 class="mb-4">Page Not Found</h1>
-                        <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
-                        <a class="btn btn-primary py-3 px-5" href="">Go Back To Home</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 404 End -->
+        
 
         
         <!-- Footer Start -->
